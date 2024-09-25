@@ -1,0 +1,154 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+.bg__hero_section {
+  background-color: rgba(217, 129, 82, 0.4);
+}
+
+@font-face {
+  font-family: "Toledo Serial";
+  src: url("/assets/fonts/ToledoSerial-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.curved-container {
+  width: 100%;
+  height: 150vh;
+  position: relative;
+  overflow: hidden;
+  clip-path: path(
+    "M0,100 Q300,300 600,100 T1700,100 L1700,600 Q1500,600 1000,600 T0,600 Z"
+  );
+}
+
+.curved-image {
+  /* width: 100%; */
+  height: 120%;
+  transform: translateY(-350px);
+
+  object-fit: cover;
+}
+.body-3 {
+  font-size: 15px;
+  line-height: 140%;
+}
+
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 10px;
+  padding-left: 10px
+}
+
+@media (min-width: 1340px) {
+  .container {
+      max-width:1340px;
+      padding-right: 20px;
+      padding-left: 20px
+  }
+}
+
+.h1 {
+  font-family: var(--font-toledo-serial-db),ui-serif,Georgia,Cambria,"Times New Roman",Times,serif;
+  font-size: 50px;
+  line-height: 120%;
+  letter-spacing: -.02em
+}
+
+@media (min-width: 768px) {
+  .h1 {
+      font-size:100px;
+      letter-spacing: 0
+  }
+}
+
+.h1 {
+  font-stretch: 85%;
+  font-variation-settings: "CTGR" 60
+}
+
+.h2 {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 140%;
+  letter-spacing: .3em
+}
+
+@media (min-width: 768px) {
+  .h2 {
+      font-size:1.5rem;
+      line-height: 2rem
+  }
+}
+
+.h3 {
+  font-family: var(--font-toledo-serial-db),ui-serif,Georgia,Cambria,"Times New Roman",Times,serif;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  line-height: 130%;
+  letter-spacing: -.02em
+}
+
+@media (min-width: 768px) {
+  .h3 {
+      font-size:90px;
+      line-height: 120%
+  }
+}
+
+.h3 {
+  font-stretch: 85%;
+  font-variation-settings: "CTGR" 60
+}
+
+.h4 {
+  font-family: var(--font-toledo-serial-db),ui-serif,Georgia,Cambria,"Times New Roman",Times,serif;
+  font-size: 28px;
+  line-height: 120%;
+  letter-spacing: -.02em
+}
+
+@media (min-width: 768px) {
+  .h4 {
+      font-size:50px;
+      line-height: 130%
+  }
+}
+
+.h4 {
+  font-stretch: 85%;
+  font-variation-settings: "CTGR" 60
+}
+
+.body-1 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  line-height: 140%
+}
+
+@media (min-width: 768px) {
+  .body-1 {
+      font-size:1.5rem;
+      line-height: 2rem
+  }
+}
+
+.body-2 {
+  font-weight: 700
+}
+
+.body-2,.body-3 {
+  font-size: 15px;
+  line-height: 140%
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
