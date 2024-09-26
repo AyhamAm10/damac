@@ -1,7 +1,4 @@
 import { motion } from "framer-motion";
-import { useEffect, useState, useRef } from "react";
-// import img1 from "../assets/section-2-image-1 (2).png";
-// import img2 from "../assets/section-2-image-2 (2).png";
 import { hoverVariant } from "../variants/hoverVariant";
 import ScrollImgSection from "./ScrollImgSection";
 

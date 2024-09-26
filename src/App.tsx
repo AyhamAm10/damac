@@ -1,4 +1,3 @@
-import { div } from "framer-motion/client";
 import HeroSection from "./component/HeroSection";
 import AboutUsSection from "./component/AboutUsSection";
 import Amenites from "./component/Amenites";

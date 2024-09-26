@@ -1,4 +1,3 @@
-import { section } from 'framer-motion/client'
 import React from 'react'
 import { motion } from 'framer-motion'
 import { hoverVariant } from '../variants/hoverVariant'

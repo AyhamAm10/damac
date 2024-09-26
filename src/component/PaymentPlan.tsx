@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+
 import { useInView } from "react-intersection-observer";
 import Counter from "./customComponent/Counter";
 import ClipPathSection from "./ClipPathSection";

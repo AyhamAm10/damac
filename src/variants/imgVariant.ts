@@ -1,4 +1,4 @@
-import { delay } from "framer-motion";
+
 
 export const imgVariant = {
     hidden: {

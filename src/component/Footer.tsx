@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { hoverVariant } from "../variants/hoverVariant";
-import Button from "../component/customComponent/ButtonRed"
 const Footer = () => {
   return (
     <motion.footer

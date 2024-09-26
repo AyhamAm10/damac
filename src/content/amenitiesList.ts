@@ -10,7 +10,6 @@ import gallery9 from "../assets/gallery-9.png"
 import gallery10 from "../assets/gallery-10.png"
 import gallery11 from "../assets/gallery-11 (1).png"
 import floorplane1 from "../assets/floorplan-placeholder-1 (1).png"
-import floorplane2 from "../assets/floorplan-placeholder-2 (2).png"
 import { amenitiesListType } from "../type/type"
 
 export const amenitiesList:amenitiesListType[] = [
