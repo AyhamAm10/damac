@@ -3,7 +3,6 @@ import { motion } from 'framer-motion'
 import { hoverVariant } from '../variants/hoverVariant'
 import DisplayImgSection from './DisplayImgSection'
 import AmenitiesList from './AmenitiesList'
-import Button from "../component/customComponent/ButtonRed"
 const Amenites:React.FC = () => {
   return (
     <section className='pt-[150px] md:pt-[200px] '>
