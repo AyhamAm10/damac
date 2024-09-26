@@ -29,23 +29,28 @@ const ClipPathSection: React.FC = () => {
         <img
           src={img}
           alt=""
-          className="w-[120%] h-[120%] object-cover translate-y-[-200px] z-12 absolute "
+          className="w-[120%] h-[120%] object-cover translate-y-[-200px] z-12 absolute brightness-50 "
         />
         <svg
-          viewBox="0 0 1270 354"
+        className=" rotate-180 absolute bottom-[-1px]"
+          viewBox="0 0 1270 456"
           xmlns="http://www.w3.org/2000/svg"
-          className=" absolute bottom-0 w-full z-30 "
         >
           <path
-            fill="rgba(255, 255, 255, 0)"
-            d="M 0 340 C 353.5 340 353.5 203 707 203 L 707 203 L 707 0 L 0 0 Z"
+            fill="rgba(255, 255, 255, 1)"
+            d="M 0 253 C 176.5 253 176.5 295 353 295 L 353 295 L 353 0 L 0 0 Z"
             stroke-width="0"
           ></path>{" "}
           <path
-            fill="rgba(255, 255, 255, 0)"
-            d="M 706 203 C 988 203 988 25 1270 25 L 1270 25 L 1270 0 L 706 0 Z"
+            fill="rgba(255, 255, 255, 1)"
+            d="M 352 295 C 665.5 295 665.5 204 979 204 L 979 204 L 979 0 L 352 0 Z"
             stroke-width="0"
           ></path>{" "}
+          <path
+            fill="rgba(255, 255, 255, 1)"
+            d="M 978 204 C 1124 204 1124 251 1270 251 L 1270 251 L 1270 0 L 978 0 Z"
+            stroke-width="0"
+          ></path>
         </svg>
       </div>
     </section>

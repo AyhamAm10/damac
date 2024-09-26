@@ -9,9 +9,10 @@ import PaymentPlan from "./component/PaymentPlan";
 import Location from "./component/Location"
 import ReliableDeveloper from "./component/ReliableDeveloper";
 import Footer from "./component/Footer";
+import ClipPathBg from "./component/ClipPathBg";
 const App: React.FC = () => {
   return (
-    <div>
+    <div className=" overflow-hidden">
       <div className="h-[150vh] flex justify-center mb-[300px]">
         <HeroSection />
       </div>
@@ -22,6 +23,7 @@ const App: React.FC = () => {
       <FreeConsultation />
       <PaymentPlan />
       <Location/>
+      <ClipPathBg />
       <ReliableDeveloper />
       <Footer/>
     </div>
