@@ -18,7 +18,6 @@ const Amenites:React.FC = () => {
         </motion.div>
         <DisplayImgSection />
         <AmenitiesList />
-        <Button value='sssss' />
     </section>
   )
 }

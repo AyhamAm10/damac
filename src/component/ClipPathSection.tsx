@@ -3,7 +3,7 @@ import img from "../assets/section-8-image-1 (1).png";
 const ClipPathSection: React.FC = () => {
   return (
     <section>
-      <div className="h-[300vh] bg-red relative overflow-x-hidden overflow-y-clip ">
+      <div className="lg:h-[250vh] md:h-[150vh] h-[100vh] bg-red relative overflow-x-hidden overflow-y-clip ">
         <svg
           className="z-20 absolute"
           viewBox="0 0 1270 500"

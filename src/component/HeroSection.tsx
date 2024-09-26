@@ -25,7 +25,7 @@ const HeroSection: React.FC = () => {
 
   return (
     <motion.section
-      className="relative  overflow-hidden transition-all duration-2000 ease-linear"
+      className="relative flex flex-col items-center  overflow-hidden transition-all duration-2000 ease-linear"
       animate={controls}
       initial={{ width: "100%" }}
     >
@@ -42,7 +42,7 @@ const HeroSection: React.FC = () => {
           <div>
             <img src={logo} alt="logo" className="text-3xl" width={300} />
           </div>
-          <button className="px-8 py-4 rounded-2xl text-2xl text-white border border-white hover:border-red hover:bg-red ">
+          <button className="sm:px-8 px-4 py-2  sm:py-4 rounded-2xl text-sm sm:text-2xl text-white border border-white hover:border-red hover:bg-red ">
             Get a free consultation
           </button>
         </div>
@@ -53,11 +53,12 @@ const HeroSection: React.FC = () => {
             className="w-[340px] h-[110px]"
           />
         </div>
-        <motion.div 
-        initial="hidden"
-        whileInView="visible"
-        variants={hoverVariant}
-        className="text-7xl  text-white text-center flex flex-col items-center gap-2">
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          variants={hoverVariant}
+          className="text-3xl sm:text-4xl md:text-7xl    text-white text-center flex flex-col items-center gap-2"
+        >
           <h1>Luxury Living</h1>
           <h1>
             Meets <span className=" underline">Holistic</span>
@@ -68,9 +69,13 @@ const HeroSection: React.FC = () => {
             <h1>nurtured in this opulent sanctuary</h1>
           </div>
         </motion.div>
-        <div className=" flex items-center justify-center gap-6 sm:gap-12  mt-8 sm:mt-12">
-            <button className="px-6 py-4 rounded-full bg-yalwe border-white hover:border-red hover:bg-ofYalwe tracking-widest text-xl ">Join the Waitlist</button>
-            <button  className="px-6 py-4 rounded-full bg-green border-white  hover:border-red border hover:bg-ofgreen  tracking-widest text-white text-xl ">Download Brochure</button>
+        <div className=" flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-12  mt-8 sm:mt-12">
+          <button className="px-6 py-4 rounded-full bg-yalwe border-white hover:border-red hover:bg-ofYalwe tracking-widest text-xl ">
+            Join the Waitlist
+          </button>
+          <button className="px-6 py-4 rounded-full bg-green border-white  hover:border-red border hover:bg-ofgreen  tracking-widest text-white text-xl ">
+            Download Brochure
+          </button>
         </div>
       </div>
     </motion.section>

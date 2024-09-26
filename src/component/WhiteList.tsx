@@ -2,13 +2,13 @@ import {motion} from "framer-motion"
 import { hoverVariant } from "../variants/hoverVariant"
 const WhiteList:React.FC = () => {
   return (
-    <section className="mt-20 py-48 bg-red  ">
+    <section className=" mt-20  sm:py-32 py-12 md:py-48 bg-red  ">
         <div className="flex items-center justify-center">
         <motion.div 
         variants={hoverVariant}
         initial="hidden"
         whileInView="visible"
-        className="text-white heading tracking-tight text-[90px] mb-2.5 max-w-[800px] text-center md:mb-5 flex items-center justify-center flex-col">
+        className="text-white heading tracking-tight text-2xl sm:text-5xl lg:text-[90px] mb-2.5 max-w-[800px] text-center md:mb-5 flex items-center justify-center flex-col">
             <h1>EOI's Have Started.</h1>
             <h1 className=" underline">Get On the Waitlist</h1>
             <h1 >for Early Premium Units.</h1>
